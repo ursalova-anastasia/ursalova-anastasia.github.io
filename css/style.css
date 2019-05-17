@@ -1,0 +1,48 @@
+body {
+    font-size: 18px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+@media only screen and (max-width: 900px){
+    body{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+}
+
+h1 {
+    color: greenyellow;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 2em;
+    margin-bottom: 25px;
+        font-weight: 900;
+}
+
+h3 {
+    color: greenyellow;
+    text-transform:uppercase;
+    margin-bottom: 25px;
+        font-weight: 900;
+}
+
+p {
+    color: white;
+    line-height: 1.5rem;
+}
+
+a *{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
